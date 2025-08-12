@@ -1,0 +1,8 @@
+In config/auth.php you must set the api guard driver to 'jwt':
+
+'guards' => [
+    'api' => [
+        'driver' => 'jwt',
+        'provider' => 'users',
+    ],
+],
